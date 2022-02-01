@@ -140,7 +140,7 @@ Please install the below required software in order to run the project.
 
 5. Create your Python project and simply import Moralis/Covalent/IPFS from moralis and start building:
 
-  [Product Name Screen Shot][product-screenshot]
+  [![Product Name Screen Shot][product-screenshot]]
   
 
 <p align="right">(<a href="#top">back to top</a>)</p>
