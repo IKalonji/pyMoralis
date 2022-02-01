@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            pyMoralis
+        </title>
+        <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+        <script src="https://npmcdn.com/moralis@latest/dist/moralis.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>
+                pyMoralis Wallet Login
+            </h1>
+            <br>
+            <button onClick="login()">LOGIN WITH METAMASK</button>
+        </div>
+        <script>
+            console.log("Login page working")
+            Moralis.initialize("")
+            async function login() {
+                Moralis.initialize("APP ID")
+                Moralis.serverURL = "SERVER URL"
+                console.log("Login clicked")
+                try {
+                    const user = await Moralis.Web3.authenticate();
+                } catch (error) {
+                    const code = error.code;
+                    const message = error.message;
+                    console.log(code, message)
+                }
+            }
+        </script>
+    </body>
+</html>
