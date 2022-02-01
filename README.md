@@ -136,7 +136,7 @@ Please install the below required software in order to run the project.
    cd ..
    ```
 
-* NOTE: Insert API KEYS into a .env file in the project root.
+* NOTE: Insert API KEYS into a in the Project file where required.
 
 5. Create your Python project and simply import Moralis/Covalent/IPFS from moralis and start building:
 
