@@ -149,10 +149,6 @@ Please install the below required software in order to run the project.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-[Video Demo](https://www.youtube.com/watch?v=T4ouxpaDafk)
-
-[![DEMO](https://img.youtube.com/vi/T4ouxpaDafk/0.jpg)](https://www.youtube.com/watch?v=T4ouxpaDafk)
-
 _Please refer to the [Documentation](https://github.com/IKalonji/pyMoralis/blob/main/README.md)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
